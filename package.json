@@ -1,0 +1,39 @@
+{
+  "name": "shop_rest_api",
+  "version": "1.0.0",
+  "description": "A Node.js RESTful API project for Building simple shop API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon out/server.js",
+    "compile": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kushal Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.20",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/cors": "^2.8.6",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.6",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/mongoose": "^5.7.28",
+    "@types/morgan": "^1.9.1",
+    "@types/multer": "^1.4.3",
+    "@types/nodemon": "^1.19.0",
+    "@types/passport": "^1.0.3",
+    "@types/passport-jwt": "^3.0.3"
+  }
+}
